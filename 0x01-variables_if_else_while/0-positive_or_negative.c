@@ -4,7 +4,7 @@
 /**
  * main - (function of the program)
  *
- * Return - Always 0 (success)
+ * Return: Always 0 (success)
 */
 int main(void)
 {
@@ -23,7 +23,7 @@ int main(void)
 	}
 	else
 	{
-	printf("%d is zero\n", n);
+		printf("%d is zero\n", n);
 	}
 	return (0);
 }
