@@ -1,16 +1,17 @@
-#include <stdio.h> 
-
+#include <stdio.h>
 /**
- *
  * main - (function of the program)
  *
- * Returns: 0 (success)
+ * Return: 0 (success)
 */
 
-int main(void) {
+int main(void) 
+{
 	char l;
 
-	/*Loop through the alphabets from standard input and print to standard output */
+	/*Loop through the alphabets from standard input and
+	 *  print to standard output 
+	*/
 	for (l = 'a'; l <= 'z'; ++l)
 	{
 		putchar(l);
