@@ -5,14 +5,11 @@
  * Return: 0 (success)
 */
 
-int main(void) 
+int main(void)
 {
 	char l;
 
-	/*Loop through the alphabets from standard input and
-	 *  print to standard output 
-	*/
-	for (l = 'a'; l <= 'z'; ++l)
+	for(l = 'a'; l <= 'z'; ++l)
 	{
 		putchar(l);
 	}
