@@ -9,10 +9,8 @@
 
 int main(void)
 {
-//	for (i = 0; i <= strlen(c); i++)
-		_putchar("_putchar");
+	_putchar("_putchar");
 
 	_putchar("\n");
-	//printf("%lu", strlen(c));
 	return (0);
 }
