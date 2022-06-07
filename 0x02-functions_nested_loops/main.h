@@ -7,5 +7,5 @@
 
 int _putchar(char c[20])
 {
-	return (printf("%s", c));
+	return (printf("%s\n", c));
 }
