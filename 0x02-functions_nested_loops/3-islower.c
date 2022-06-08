@@ -4,6 +4,8 @@
 /**
  * _islower - check for lowercase character
  *
+ * c - check if c is lowercase
+ *
  * Return: 1 (success) || 0 (failure)
 */
 
