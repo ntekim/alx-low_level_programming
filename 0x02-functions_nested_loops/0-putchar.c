@@ -6,8 +6,8 @@
  * Return: 0 (success)
  */
 
-int main(void)
+int _putchar(void)
 {
-	_putchar("_putchar");
+	printf("_putchar");
 	return (0);
 }
