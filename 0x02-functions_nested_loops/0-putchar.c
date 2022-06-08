@@ -1,8 +1,7 @@
 #include "main.h"
 #include <stdio.h>
-#include <string.h>
 /**
- * main - calls _putchar() from header file
+ * main - calls _putchar function to print _putchar string
  *
  * Return: 0 (success)
  */

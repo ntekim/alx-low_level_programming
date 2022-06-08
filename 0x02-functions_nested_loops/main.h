@@ -1,11 +1,9 @@
-#include <stdio.h>
+#ifndef MAIN_H
+#define MAIN_H
 /**
- * _putchar - write data to stdout
+ * DESC - Header file containing declaration(prototype) for all functions
  *
- * Return: data written to stdin
- */
+*/
 
-int _putchar(char c[20])
-{
-	return (printf("%s\n", c));
-}
+int _putchar(char c);
+#endif
