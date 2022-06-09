@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * _abs - prints absolute value of a number
- * 
+ *
  * @n: character to print
  *
  * Return: 0 (success)
