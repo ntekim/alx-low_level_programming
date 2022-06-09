@@ -5,8 +5,6 @@
  *  @c: parameter to be checked
  *
  *  Return: 1 (success)
- *
- *  Return: 0 (failure)
  */
 int _isdigit(int c)
 {
