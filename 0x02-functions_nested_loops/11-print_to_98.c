@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 /**
  * print_to_98 - print all natural number from n to 98
  *
