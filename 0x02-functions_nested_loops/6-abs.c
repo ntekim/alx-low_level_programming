@@ -8,9 +8,9 @@
  * Return: 0 (success)
 */
 
-int _abs(int n)
+int _abs(int)
 {
-	int abs = abs(n);
+	int abs = abs(int);
 	_putchar(abs);
 	return (0);
 }
