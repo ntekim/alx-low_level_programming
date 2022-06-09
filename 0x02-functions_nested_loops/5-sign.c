@@ -13,9 +13,9 @@ int print_sign(int n)
 	if (n > 0)
 		_putchar("+");
 	
-	if (n == 0)
+	else if (n == 0)
 		_putchar("0");
 
-	if (n < 0)
-		_putchar("-);
+	else if (n < 0)
+		_putchar("-");
 }
