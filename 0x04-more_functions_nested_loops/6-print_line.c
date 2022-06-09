@@ -5,7 +5,7 @@
  * @n: parameter to be inputed
  */
 
-void print_numbers(int n)
+void print_line(int n)
 {
 	int c;
 
