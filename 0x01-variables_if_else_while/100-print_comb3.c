@@ -18,7 +18,7 @@ int main(void)
 			conc1 = (digit1 % 10) + '0';
 			conc2 = (digit2 % 10) + '0';
 
-			if(conc1 == conc2 || conc2 == conc1)
+			if(strcat(conc1, conc2) == strcat(conc2, conc1))
 				continue;
 
 			putchar(conc1);
