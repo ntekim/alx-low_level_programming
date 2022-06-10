@@ -1,11 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_last_digit - Print last digit of a number
+ * print_last_digits - Print last digit of a number
  *
  * @n: character to assess
  *
- * Return: (0);
+ * Return: value of the last digit
  */
 
 int print_last_digits(int n)
@@ -15,7 +15,7 @@ int print_last_digits(int n)
 	if (last_digit > 0)
 		last_digit *= -1;
 
-	printf(last_digit + '0');
+	_putchar(last_digit + '0');
 
 	return (last_digit);
 }
