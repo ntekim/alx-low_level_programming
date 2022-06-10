@@ -13,10 +13,10 @@ void print_line(int n)
 	if (n > 0)
 	{
 		for (c = 0; c <= n; c++)
-			putchar('_');
+			_putchar('_');
 
-		putchar('\n');
+		_putchar('\n');
 	}
 
-	putchar('\n');
+	_putchar('\n');
 }
