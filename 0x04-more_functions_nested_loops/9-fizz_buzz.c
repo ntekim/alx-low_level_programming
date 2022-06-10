@@ -1,14 +1,13 @@
-#include "main.h"
 #include <stdio.h>
 /**
- * fizz_buzz - Prints the numbers from 1-100, but for multiples of three,
+ * main - Prints the numbers from 1-100, but for multiples of three,
  *        Fizz is printed instead of the number, for multiples of five,
  *        Buzz, and for multiples of both three and five, FizzBuzz.
  *
  * Return: Always 0.
  */
 
-int fizz_buzz(void)
+int main(void)
 {
 	int i;
 
@@ -25,9 +24,9 @@ int fizz_buzz(void)
 		else
 			printf("%d", i);
 
-			if (i == 100)
-				continue;
-			printf(" ");
+		if (i == 100)
+			continue;
+		printf(" ");
 	}
 	printf("\n");
 
