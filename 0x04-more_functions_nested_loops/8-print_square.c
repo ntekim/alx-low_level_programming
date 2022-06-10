@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_square - print square based on size inputed
  *
@@ -15,7 +16,7 @@ void print_square(int size)
 		{
 			for (n_o_t = 0; n_o_t < size; n_o_t++)
 			{
-				_putchar("#");
+				_putchar('#');
 			}
 
 			if (len == size - 1)
