@@ -3,11 +3,14 @@
 /**
  * _strlen - returns the length of a string
  * @s: pointer variable of type char to be worked with
+ *
+ * Return: string length
  */
 
 int _strlen(char *s)
 {
 	int len;
-	len = strlen(*s);
+
+	len = strlen(s);
 	return (len);
 }
