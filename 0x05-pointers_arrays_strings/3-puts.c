@@ -6,5 +6,5 @@
 
 void _puts(char *s)
 {
-	putchar("%s/n", *s);
+	_putchar("%s\n", s);
 }
