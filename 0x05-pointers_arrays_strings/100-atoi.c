@@ -13,7 +13,7 @@ int _atoi(char *s)
 	int c, i, len;
 
 	i = 0;
-	len = strlen(s)
+	len = strlen(s);
 	while (i <= len)
 	{
 		if (!(*s >= 'a' || s <= 'z'))
