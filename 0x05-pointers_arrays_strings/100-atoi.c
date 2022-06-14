@@ -10,7 +10,7 @@
 
 int _atoi(char *s)
 {
-	int c, i, len;
+	int c, i, len, sign;
 
 	i = 0;
 	len = strlen(s);
@@ -22,8 +22,11 @@ int _atoi(char *s)
 		if (s[i] == ' ')
 			s++;
 
+		if (s[i] == '-')
+			sign *= -1;
+
 		c = atoi(s);
 		i++;
 	}
-	return (c);
+	return (c * sign);
 }
