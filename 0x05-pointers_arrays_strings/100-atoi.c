@@ -16,16 +16,16 @@ int _atoi(char *s)
 	len = strlen(s);
 	while (i <= len)
 	{
-		if (s[i] == '-')
+		if (*s == '-')
 			sign *= -1;
 
-		if (s[i] == '+')
+		if (*s == '+')
 			s++;
 
 		if (!(*s >= 'a' || *s <= 'z'))
 			return (0);
 
-		if (s[i] == ' ')
+		if (*s == ' ')
 			s++;
 
 		c = atoi(s);
