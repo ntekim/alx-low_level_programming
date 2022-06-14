@@ -15,11 +15,11 @@ int _atoi(char *s)
 	i = 0;
 	while (i <= strlen(s))
 	{
-		if (!(s >= 'a' || s <= 'z'))
+		if (!(*s >= 'a' || s <= 'z'))
 			return (0);
 
-		if (s[i] == " ")
-			s++;
+		if (*s[i] == ' ')
+			*s++;
 
 		c = atoi(s);
 		i++;
