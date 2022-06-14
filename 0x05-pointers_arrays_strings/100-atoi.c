@@ -16,7 +16,7 @@ int _atoi(char *s)
 	len = strlen(s);
 	while (i <= len)
 	{
-		if (!(*s >= 'a' || s <= 'z'))
+		if (!(*s >= 'a' || *s <= 'z'))
 			return (0);
 
 		if (s[i] == ' ')
