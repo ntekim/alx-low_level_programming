@@ -18,9 +18,5 @@ int main(int argc, char *argv[])
 			printf("%s\n", argv[i]);
 		}
 	}
-	else
-	{
-		printf("No arguments passed\n");
-	}
 	return (0);
 }
