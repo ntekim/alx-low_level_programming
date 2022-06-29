@@ -27,12 +27,12 @@ int **alloc_grid(int width, int height)
 
 		if (p_arr[h] == NULL)
 		{
-			for (; h >= 0 h--)
+			for (; h >= 0; h--)
 				free(p_arr[h]);
 
 			free(p_arr);
 
-			return (NULL)
+			return (NULL);
 		}
 
 		for (; w < width; w++)
