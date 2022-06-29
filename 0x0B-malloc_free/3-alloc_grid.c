@@ -32,5 +32,5 @@ int **alloc_grid(int width, int height)
 		i++;
 	}
 
-	return (**p_arr);
+	return (&p_arr);
 }
