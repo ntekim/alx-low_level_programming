@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * _abs - absolute value program
+ * _isalpha - check if value is alphabet program
  * @c: function parameter
  *
  * Return: 0 (success)
  */
 
-int _abs(int c)
+int _isalpha(int c)
 {
 	return (0);
 }
