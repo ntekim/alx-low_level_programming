@@ -27,3 +27,6 @@ int *array_range(int min, int max)
 
 	for (i = min; i < max; i++)
 		p_array[len++] = i;
+
+	return (p_array);
+}
