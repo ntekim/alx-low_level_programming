@@ -9,10 +9,10 @@
  */
 int main(void)
 {
-    char *concat;
+    int *concat;
 
-    concat = string_nconcat("Best ", "School !!!", 6);
-    printf("%s\n", concat);
+    concat = _calloc(98, sizeof(char));
+    /*printf("%d\n", concat);*/
     free(concat);
     return (0);
 }
