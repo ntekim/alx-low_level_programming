@@ -9,11 +9,16 @@
  */
 int main(void)
 {
-    int *concat, i;
+	char *p;
+    int i;
 
-    concat = array_range(0, 98);
-    /*for (i = 0; i <= 10; i++)*/ 
-    	/*printf("%d\n", concat[i]);*/
-    free(concat);
+    p = malloc(sizeof(char) * 10);
+    p = _realloc(p, sizeof(char) * 10, sizeof(char) * 98);
+    i = 0;
+    while (i < 98)
+    {
+        p[i++] = 98;
+    }
+    free(p);
     return (0);
 }
