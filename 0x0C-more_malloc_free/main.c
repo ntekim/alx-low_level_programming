@@ -11,7 +11,7 @@ int main(void)
 {
     int *concat, i;
 
-    concat = array_range(0, 10);
+    concat = array_range(0, 98);
     /*for (i = 0; i <= 10; i++)*/ 
     	/*printf("%d\n", concat[i]);*/
     free(concat);
