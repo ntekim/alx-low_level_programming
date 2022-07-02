@@ -9,10 +9,11 @@
  */
 int main(void)
 {
-    int *concat;
+    int *concat, i;
 
-    concat = _calloc(98, sizeof(char));
-    /*printf("%d\n", concat);*/
+    concat = array_range(0, 10);
+    /*for (i = 0; i <= 10; i++)*/ 
+    	/*printf("%d\n", concat[i]);*/
     free(concat);
     return (0);
 }

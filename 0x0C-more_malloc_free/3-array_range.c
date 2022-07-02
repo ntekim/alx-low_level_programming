@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
+#include <stdio.h>
 /**
  * array_range - program creates an array of integers
  * @min: lowest value to be included
@@ -23,10 +24,15 @@ int *array_range(int min, int max)
 	if (p_array == NULL)
 		return (NULL);
 
-	len = -1;
+	len = 0;
 
-	for (i = min; i < max; i++)
-		p_array[len++] = i;
+	p_array[0] = min;
+
+	for (i = min; i <= max; i++)
+		p_array[len++] = min++;
+
+	for (i = 0; i < len; i++)
+		printf("%d\n", p_array[i]);
 
 	return (p_array);
 }
