@@ -1,6 +1,10 @@
 #ifndef DOG_H
 #define DOG_H
 /*
+ * Desc: Header file that defines a new struct dog
+ */
+
+/**
  * struct dog - A new struct type describing a dog
  * @name: pointer to a char
  * @age: float type
