@@ -1,5 +1,5 @@
 #include  "main.h"
-#include <stdio.h>
+#include <stdlib.h>
 /**
  *  list_len - returns the number of elements in a linked list
  *  @h: pointer to the list_t list to loop through
@@ -7,16 +7,14 @@
  *  Return: int - number of elements
  */
 
-size_t print_list(const list_t *h)
+size_t list_len(const list_t *h)
 {
-        size_t n_nodes;
+        size_t n_nodes = 0;
 
         while (h)
         {
-                if (h->str == NULL)
-                        printf("[0] (nil)\n");
-                h = h->next;
                 n_nodes++;
+                h = h->next;
         }
 
 	return (n_nodes);
