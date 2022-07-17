@@ -8,12 +8,11 @@
  */
 size_t print_listint(const listint_t *h)
 {
-	listint_t new;
 	size_t n;
 
 	while (h)
 	{
-		if (!h->str)
+		if (!h->digit)
 			printf("[0] (nil)\n");
 		else
 			printf("%d\n", h->digit);
