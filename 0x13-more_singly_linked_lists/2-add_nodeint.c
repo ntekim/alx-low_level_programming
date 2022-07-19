@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "main.h"
 /**
  * add_nodeint - adds a new node at the beginning of a listint_t list
@@ -21,5 +19,5 @@ listint_t *add_nodeint(listint_t **head, const int n)
 	new_node->next = *head;
 	*head = new_node;
 
-	return (*head);
+	return (new_node);
 }
