@@ -20,11 +20,11 @@ int append_text_to_file(const char *filename, char *text_content)
 		if (access(filename, F_OK) == -1)
 		{
 			if (access(filename, W_OK) == -1)
-				return (-2);
+				return (-1);
 
 			return (1);
 		}
-		return (-3);
+		return (-1);
 	}
 
 	for (len = 0; text_content[len];)
@@ -34,7 +34,7 @@ int append_text_to_file(const char *filename, char *text_content)
 	w = write(o, text_content, len);
 
 	if (o == -1 || w == -1)
-		return (-4);
+		return (-1);
 
 	close(o);
 
