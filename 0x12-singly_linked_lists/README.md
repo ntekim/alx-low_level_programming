@@ -1,1 +1,1 @@
-Linked List data structure directory
+Singly linked lists
