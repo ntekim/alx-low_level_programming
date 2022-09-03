@@ -17,9 +17,15 @@ dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 
 	if (index == 0)
 	{
+		current = malloc(sizeof(dlistint_t));
+		if (!current)
+			return (NULL);
+
 		current->n = head->n;
 		current->next = NULL;
 		current->prev = NULL;
+
+		return (current);
 	}
 
 	while (head->next)
