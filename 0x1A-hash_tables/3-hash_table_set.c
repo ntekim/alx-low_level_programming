@@ -4,8 +4,8 @@
  * @ht: the hash table to add or update key/value to
  * @key: the key, can't be empty string
  * @value: value for the key, must be duplicated
- * 	   value can be an empty string
- * 
+ *	value can be an empty string
+ *
  * Return: 1 (success), 0(error)
  */
 
