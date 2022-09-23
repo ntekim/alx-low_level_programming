@@ -43,7 +43,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	new_hash->key = strdup(key);
 	if (new_hash->key == NULL)
 	{
-		free(new);
+		free(new_hash);
 		return (0);
 	}
 
